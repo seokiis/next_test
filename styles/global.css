@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+body.dark {
+  background-color: black;
+}
+
+body.dark,
+body.dark a {
+  color: white;
+}
+
+body.ligth {
+  background-color: white;
+}
+
+body.ligth,
+body.ligth a {
+  color: black;
+}
+
+.container {
+  padding: 80px 0;
+}
